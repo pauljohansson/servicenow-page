@@ -1,4 +1,82 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot");
+  src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.svg#Gilroy")
+      format("svg");
+}
+
 * {
   margin: 0px;
   padding: 0px;
+}
+
+@media only screen and (min-width: 1700px) {
+  nav {
+    position: fixed;
+  }
+
+  #navbar {
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  #snlogo {
+    margin-left: 222px;
+    height: 80px;
+  }
+
+  #logo-now {
+    height: 100%;
+    margin-top: 24px;
+    max-height: 26px;
+    max-width: 196px;
+    width: 175px;
+  }
+
+  #topNavLinks {
+    display: flex;
+    list-style-type: none;
+    margin-left: 110px;
+  }
+
+  #topNavLinks li {
+    margin: 0px 32px;
+    line-height: 80px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Gilroy";
+    color: #293e40;
+  }
+
+  #navIcons {
+    display: flex;
+    list-style-type: none;
+    margin-left: 275px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  #navIcons li {
+    margin: 5px 0px 0px 40px;
+  }
+
+  #getStartedButton {
+    background-color: #293e40;
+    padding: 12px 20px;
+    color: white;
+    font-family: "Gilroy";
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 6px;
+  }
 }
