@@ -177,4 +177,37 @@
     padding: 20px 20px;
     margin: 5px;
   }
+
+  /*Links*/
+  #iconsWithLinks {
+    font-family: "Gilroy";
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    white-space: nowrap;
+    margin: 20px 170px;
+  }
+
+  #iconsWithLinks > div {
+    padding: 40px;
+    margin: 0px 120px;
+  }
+
+  #iconsWithLinks > div > ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+  }
+
+  #iconsWithLinks > div > ul > li {
+    padding-right: 32px;
+  }
+
+  #iconsWithLinks > div > ul > li > img {
+    width: 48px;
+  }
+
+  #iconsWithLinks > div > ul > li > a {
+    cursor: pointer;
+  }
 }
