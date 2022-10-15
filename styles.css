@@ -62,7 +62,7 @@
   }
 
   #snlogo {
-    margin-left: 222px;
+    margin-left: 102px;
     height: 80px;
   }
 
@@ -118,7 +118,8 @@
   }
 
   #sloganContainer > div {
-    margin-top: 77px;
+    padding-left: 142px;
+    margin-top: 87px;
     background-color: #0e2c41;
     color: white;
     width: 50%;
@@ -146,6 +147,7 @@
     background-image: url("images/brand-campaign-marquee-magazine.jpg");
     flex-direction: column;
     display: flex;
+    padding-right: 40px;
   }
 
   #greenButton {
