@@ -53,6 +53,8 @@
 
   nav {
     position: fixed;
+    width: 100%;
+    background-color: white;
   }
 
   #navbar {
@@ -121,7 +123,7 @@
 
   #sloganContainer > div {
     padding-left: 142px;
-    margin-top: 87px;
+    margin-top: 80px;
     background-color: #0e2c41;
     color: white;
     width: 50%;
@@ -161,6 +163,7 @@
     font-size: 18px;
     color: black;
     text-decoration: none;
+    cursor: pointer;
   }
 
   #buttonContainer {
@@ -180,6 +183,7 @@
     background-color: #293e40;
     padding: 20px 20px;
     margin: 5px;
+    cursor: pointer;
   }
 
   /*Links*/
@@ -263,6 +267,7 @@
     border: 2px solid #62d84e;
     border-radius: 6px;
     padding: 13px 34px;
+    cursor: pointer;
   }
 
   .story > div > img {
