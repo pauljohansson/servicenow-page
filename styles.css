@@ -303,6 +303,7 @@
 
   #workflows > ul > li {
     margin-right: 120px;
+    cursor: pointer;
   }
 
   .liActive {
