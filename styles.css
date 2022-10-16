@@ -252,6 +252,7 @@
     font-family: "Gilroy-Bold";
     font-size: 48px;
     margin-top: 35px;
+    margin-bottom: 16px;
   }
 
   .story > div > p {
@@ -272,10 +273,45 @@
 
   .story > div > img {
     border-radius: 8px;
-    width: 70%;
+    width: 110%;
   }
 
   .story > div:first-child > img {
     width: 100%;
+  }
+
+  /*Workflows*/
+
+  #workflowsContainer {
+    font-family: "Gilroy SemiBold";
+    font-size: 18px;
+    color: rgba(0, 0, 0, 50%);
+    margin: 0px 40px;
+  }
+
+  #workflows {
+    margin: 150px 400px 0px 400px;
+    white-space: nowrap;
+  }
+
+  #workflows > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    line-height: 40px;
+  }
+
+  #workflows > ul > li {
+    margin-right: 120px;
+  }
+
+  .liActive {
+    color: black;
+    border-bottom: 4px solid black;
+  }
+
+  b {
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
   }
 }
