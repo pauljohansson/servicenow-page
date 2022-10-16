@@ -315,4 +315,13 @@
     font-family: "Gilroy-Bold";
     font-size: 18px;
   }
+
+  .workflowAdjustment > div:first-child {
+    margin-top: 180px;
+    margin-right: 140px;
+  }
+
+  .workflowAdjustment > div:first-child > h2 {
+    margin-top: 10px;
+  }
 }
